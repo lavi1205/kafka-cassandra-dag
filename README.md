@@ -16,9 +16,6 @@ Before running this DAG, ensure you have the following components installed and 
 
 - **DAG Name:** `e2e_dags`
 - **Owner:** Thinh Pham
-- **Start Date:** January 1, 2024
-- **Schedule Interval:** None (manual execution)
-- **Retries:** 1
 
 This DAG is designed for data processing. It fetches data from an external API, formats the data, sends it to a Kafka topic, and stores it in a Cassandra table.
 
